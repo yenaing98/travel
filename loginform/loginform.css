@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+body{
+	font-family: 'Handlee', cursive; 
+
+	background-image: url(./busbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: 
+}
+
+.container{
+	width: 500px;
+	height: 550px;
+	background-color:rgba(119,134,130,0.5);
+	border-radius: 20px 60px;
+
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+	margin-left: 150px;
+	margin-top: 30px;
+
+	position: relative;
+}
+
+.container h2{
+	text-align: center;
+	text-shadow: 2px -2px 4px white;
+	color: #000000;
+	font-weight: 900;
+	font-size: 40px;
+
+	padding-top:20px; 
+}
+
+.container .form{
+	padding: 0px 40px;
+}
+
+.container .form .form-group{
+	padding-bottom: 20px;
+	/*margin-bottom: 10px;*/
+}
+
+.container .form .form-group label{
+	font-size: 20px;
+	font-weight:900;
+	text-shadow: 2px -2px 4px white;  
+	display: block;
+}
+
+.form-group .form-control{
+	font-family:inherit; 
+	width: 100%;
+	padding: 5px;
+	border-radius:7px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+.form-group .form-control::placeholder{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.form-group .form-control:focus{
+	outline: 0;
+}
+
+.form .confirm{
+	text-align: center;
+}
+
+.form .confirm a{
+	letter-spacing: 1px;
+	border-radius: 7px;
+	color: white;
+	text-decoration: none;
+	background-color: #063a8a;
+	padding: 8px 35px;
+	margin-right: 20px;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+.subdiv1{
+	margin-top: 20px;
+}
+
+.subdiv1 a{
+	display: block;
+	text-decoration: none;
+	color: #008cab;
+	font-size: 20px;
+	font-weight: 900;
+	text-shadow: 2px -2px 3px white;
+	padding: 3px;
+}
+
+.subdiv1 a:hover{
+	color: #2100b3;
+}
